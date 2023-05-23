@@ -142,6 +142,16 @@ footer{
     color: white;
 }
 
+.datos a{
+    color: white;
+    text-decoration: none;
+}
+
+.datos a:hover{
+    color: #2196f3;
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 480px) {
 
     main{
