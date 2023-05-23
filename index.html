@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo fuente 1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap" rel="stylesheet">
+
+    <!-- Estilo de fuente 2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Rocker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+
+        <img src="Imagenes/OIG (6).jpeg" alt="logo 2" class="logo2">
+        <h1 class="titulo">Encriptador</h1>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <textarea class="entradaTexto" cols="30" rows="10" placeholder="Ingrese el texto aqui..." autofocus></textarea>
+
+            <di>
+
+                <h6 class="informacion"> &#128712; *Solo letras minúsculas y sin acentos</h6>
+                
+            </di>
+
+            <div class="botones">
+
+                <button class="botonEncriptar" onclick="botonEncriptar()">Encriptar</button>
+
+                <button class="botonDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+
+            </div>
+
+        </section>
+            
+        <section>
+
+            <textarea name="" id="salidaTexto" cols="20" rows="10" class="salidaTexto" placeholder="¡Ingresa el texto que deseas encriptar o desencriptar!"></textarea>
+
+            <div>
+
+                <button class="botonCopiar" onclick="botonCopiar()">Copiar</button>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="Imagenes/Logo@2x.png" alt="prueba" class="imgfooter">
+
+        <div class="datos">
+            <p>Challenge ONE Principiante en programación</p>
+            <p>Sprint 01: Construye un encriptador de texto con Javascript</p>
+            <p>Jesús Amir Hernández Martínez</p>
+        </div>
+        
+    </footer>
+
+    <script src="challenge_encriptador.js"></script>
+
+</body>
+</html>

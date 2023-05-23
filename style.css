@@ -1,0 +1,187 @@
+body{
+    background: ghostwhite;
+}
+
+header{
+    width: 100%;
+    background: darkgray;
+    display: flex;
+    font-family: 'New Rocker', cursive;
+}
+
+.logo2{
+    margin: 10px 0 10px 10px;
+    width: 5%;
+    border-radius: 50%;
+}
+
+.titulo{
+    margin: 10px 0 10px 10px;
+    padding-top: 15px;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+main{
+    font-family: 'Wix Madefor Text', sans-serif;
+    font-weight: 400;
+    line-height: 150%; 
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.entradaTexto{
+    width: 600px;
+    height: 300px;
+    background: ghostwhite;
+    border: none;
+    color: gray;
+    font-size: 2em;
+    margin-top: 90px;
+    resize: none;
+}
+
+::placeholder{ 
+    color: gray;
+}
+
+.entradaTexto:focus{
+    outline: none;
+}
+
+.salidaTexto{
+    width: 350px;
+    height: 300px;
+    border-radius: 10%;
+    background: #eef5f3 center;
+    background-image: url("Imagenes/OIG.5CVf8ms9XC3Bq6.jpeg") ;
+    background-repeat: no-repeat;
+    border: none;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    resize: none;
+    font-size: 1.1em;
+}
+
+.informacion{
+    font-size: 0.9em;
+    opacity: 0.5;
+}
+
+.salidaTexto:focus{
+    outline: none;
+}
+
+.botnones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.botonEncriptar{
+    background: #2196f3;
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    width: 200px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.botonDesencriptar{
+    background: white;
+    border: 2px solid #2196f3;
+    border-radius: 10px;
+    color: #2196f3;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 200px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.botonCopiar{
+    background: white;
+    border: 2px solid #2196f3;
+    border-radius: 10px;
+    color: #2196f3;
+    cursor: pointer;
+    height: 40px;
+    margin-left: 150px;
+    position: absolute;
+    width: 160px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer{    
+    background: darkgray;
+    display: inline-block;
+    width: 100%;
+
+}
+
+.imgfooter{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+    padding-top: 20px;
+    float: left;
+}
+
+.datos{
+    font-size: 1em;
+    text-align: right;
+    margin: 10px;
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+
+    main{
+        display: block;
+        margin-left: 20px;
+    }
+
+    .logo2{
+        width: 15%;
+    }
+
+    .botones{
+        display: flex;
+    }
+
+    .botonEncriptar{
+        width: 160px;
+        height: 40px;
+    }
+
+    .botonDesencriptar{
+        margin-left: 30px;
+        width: 160px;
+        height: 40px;
+    }
+
+    .salidaTexto{
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+    .botonCopiar{
+        margin-left: 200px;
+    }
+
+    .imgfooter{
+        width: 20%;
+    }
+
+    .datos{
+        font-size: 0.9em;
+    }
+}
